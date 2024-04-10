@@ -9,6 +9,6 @@
 - name: Play2
   hosts: localhost
   tasks:
-  -name: Task2
-   ansible.builtin.debug:
-    msg: "Hello from play2 and task2"     
+  - name: Task2
+    ansible.builtin.debug:
+     msg: "Hello from play2 and task2"     
