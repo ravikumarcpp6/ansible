@@ -1,0 +1,9 @@
+#Variable from files
+- name: variables in playbook
+  hosts: localhost
+  vars_files:
+  - variables.yaml
+  tasks:
+  - name: variables in playbook
+    ansible.builtin.debug:
+     msg: "Hi I am learning {{course}}, My trainer is {{trainer}}, and duration is {{duration}}"
