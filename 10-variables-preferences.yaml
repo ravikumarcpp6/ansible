@@ -14,8 +14,12 @@
     private: false
   tasks:
   - name: checking args
-    vars:
-     person: "robb from task"
-     wishes: "evening from task"
+    # vars:
+    #  person: "robb from task"
+    #  wishes: "evening from task"
     ansible.builtin.debug:
      msg: "Hello {{person}}, Good {{wishes}} "
+
+     # cmd
+     # task
+     # files
