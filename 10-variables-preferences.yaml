@@ -3,15 +3,15 @@
   vars:
     person: "robert from play"
     wishes: "afternoon from play"
-  vars_files:
-  - variables.yaml
-  vars_prompt:
-  - name: person
-    prompt: please enter your name
-    private: false
-  - name: wishes
-    prompt: please enter your wish
-    private: false
+  # vars_files:
+  # - variables.yaml
+  # vars_prompt:
+  # - name: person
+  #   prompt: please enter your name
+  #   private: false
+  # - name: wishes
+  #   prompt: please enter your wish
+  #   private: false
   tasks:
   - name: checking args
     # vars:
@@ -23,3 +23,4 @@
      # cmd
      # task
      # files
+     # prompt
