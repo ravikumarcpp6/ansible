@@ -8,6 +8,6 @@
   tasks:
   - name: variables in playbook
     vars:
-     course: "aws with devops"
+     course: "devops with aws"
     ansible.builtin.debug:
      msg: "Hi I am learning {{course}}, My trainer is {{trainer}}, and duration is {{duration}}"
