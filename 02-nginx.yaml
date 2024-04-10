@@ -1,11 +1,12 @@
 - name: install and run nginx
   hosts: web
+  
   tasks:
-  - name: install nginx package
+  - name: install nginx 
     ansible.builtin.package:
     name: nginx
     state: present
-  - name: Run nginx service
+  - name: Run nginx
     ansible.builtin.service:
     name: nginx
     state: started
