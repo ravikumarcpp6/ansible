@@ -1,0 +1,6 @@
+- name: variables in playbook
+  hosts: localhost
+  tasks:
+  - name: variables in playbook
+    ansible.builtin.debug:
+     msg: "Hi I am learning devops,My trainer is ravi and duration is 110hrs"
