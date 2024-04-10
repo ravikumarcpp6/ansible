@@ -1,4 +1,4 @@
-- name checking data types
+- name: checking data types
   hosts: localhost
   vars:
    NAME: RAVI
